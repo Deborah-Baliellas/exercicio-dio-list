@@ -1,3 +1,4 @@
+package compras;
 public class Item {
     private String nome;
     private double preco;
@@ -23,6 +24,6 @@ public class Item {
 
     @Override
     public String toString() {
-        return nome;
+        return "Item {" + "Produto: " + nome + ", preço R$ " + preco + ", quantidade: " + quantidade + "}";
     }
 }
